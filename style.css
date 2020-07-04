@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+.jumbotron{
+    background-image: url(https://images.unsplash.com/photo-1592724944475-94f92ee13664?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80);
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+}
+.navbar {
+    font-family: 'Zilla Slab', serif;
+    letter-spacing: 2px;
+    transition: all 0.4s;
+}
+
+.navbar-toggler{
+    font-size: 20px;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.logo{
+    letter-spacing: 3px;
+    font-size: 2em;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+.hero-text{
+    font-family: 'Zilla Slab', serif;
+    margin-top: 4em;
+    font-size: 4em;
+    width: 50%;
+    color: #fff;
+}
+
+.options{
+    font-family: 'Zilla Slab', serif;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10em;
+    align-items: baseline;
+}
+
+.options .col-md-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.options h4{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.options .lead{
+    font-weight: 200;
+}
+
+.btn{
+    background-color: #00A390;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+
+.container-fluid h4{
+    margin-top: 4em;
+    margin-left: 8em;
+}
+
+.container-fluid h2{
+    font-family: 'Zilla Slab', serif;
+    font-weight: bolder;
+    font-size: 3em;
+    letter-spacing: 1px;
+    margin-left: 4em;
+    margin-bottom: 2em;
+}
+.carousel{
+    width: 80%;
+    margin: auto;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    background-color: #000;
+}
+.carousel-indicators .active {
+    margin: 10px;
+    background-color: #00A390;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    font-size: 20px;
+    font-weight: 800;
+    color: black !important;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background: rgba(255, 255, 255);
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+    .logo{
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero-desc{
+        margin-top: 10%;
+    }
+    .hero-text{
+        margin-top: 2em;
+        width: 80%;
+    }
+    .options .col-md-4{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .btn{
+        margin-top: 4em;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .hero-desc{
+        margin-top: 20%;
+    }
+
+    .options .lead{
+        display: none;
+    }
+
+    .container-fluid h4{
+        margin-top: 2em;
+        margin-left: 2em;
+    }
+    
+    .container-fluid h2{
+        margin-left: 1.4em;
+    }
+}

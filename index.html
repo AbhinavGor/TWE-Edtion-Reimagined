@@ -1,147 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
-  <title>
-    Argon Design System by Creative Tim
-  </title>
-  <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-  <!-- Nucleo Icons -->
-  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-  <!-- Font Awesome Icons -->
-  <link href="./assets/css/font-awesome.css" rel="stylesheet" />
-  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-  <!-- CSS Files -->
-  <link href="./assets/css/argon-design-system.css?v=1.2.0" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e57fcbd46d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>TWE - Home</title>
 </head>
+<body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+          
+          <a class="navbar-brand js-scroll-trigger logo" target='_blank' href="https://twe.thepcvit.com">The Weekly Edge</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger p-3" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger p-3" href="http://twe.thepcvit.com/welcome" target="_blank">For Members</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <div class="jumbotron">
+        <div class="container">
+          <div class="hero-desc">
+            <h1 class="hero-text">Some attention grabbing caption</h1>
+          </div>
+          <div class="options">
+              <div class="col-md-4">
+                  <h4>For Members</h4>
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis orci est, in pellentesque turpis lacinia sed. Aenean molestie, est.</p><br />
+                  <a href="http://twe.thepcvit.com/welcome" target="_blank"><button class="btn">Member Login</button></a>
+              </div>
+              <div class="col-md-4">
+                <h4>View TWE</h4>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis orci est, in pellentesque turpis lacinia sed. Aenean molestie, est.</p><br />
+            </div>
+            <div class="col-md-4">
+                <h4>Feature in TWE</h4>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis orci est, in pellentesque turpis lacinia sed. Aenean molestie, est.</p><br />
+                <button class="btn">Details here</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<body class="index-page">
-  <!-- Navbar -->
-  <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
-    <div class="container">
-      <a class="navbar-brand mr-lg-5" href="./index.html">
-        <img src="./assets/img/brand/white.png">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse" id="navbar_global">
-        <div class="navbar-collapse-header">
-          <div class="row">
-            <div class="col-6 collapse-brand">
-              <a href="./index.html">
-                <img src="./assets/img/brand/blue.png">
-              </a>
-            </div>
-            <div class="col-6 collapse-close">
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- <ul class="navbar-nav navbar-nav-hover align-items-lg-right">
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
-              <i class="ni ni-ui-04 d-lg-none"></i>
-              <span class="nav-link-inner--text">Components</span>
-            </a>
-            <div class="dropdown-menu dropdown-menu-xl">
-              <div class="dropdown-menu-inner">
-                <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html" class="media d-flex align-items-center">
-                  <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                    <i class="ni ni-spaceship"></i>
-                  </div>
-                  <div class="media-body ml-3">
-                    <h6 class="heading text-primary mb-md-1">Getting started</h6>
-                    <p class="description d-none d-md-inline-block mb-0">Learn how to use compiling Scss, change brand colors and more.</p>
-                  </div>
-                </a>
-                <a href="https://demos.creative-tim.com/argon-design-system/docs/foundation/colors.html" class="media d-flex align-items-center">
-                  <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
-                    <i class="ni ni-palette"></i>
-                  </div>
-                  <div class="media-body ml-3">
-                    <h6 class="heading text-primary mb-md-1">Foundation</h6>
-                    <p class="description d-none d-md-inline-block mb-0">Learn more about colors, typography, icons and the grid system we used for .</p>
-                  </div>
-                </a>
-                <a href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html" class="media d-flex align-items-center">
-                  <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                    <i class="ni ni-ui-04"></i>
-                  </div>
-                  <div class="media-body ml-3">
-                    <h5 class="heading text-warning mb-md-1">Components</h5>
-                    <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
-              <i class="ni ni-collection d-lg-none"></i>
-              <span class="nav-link-inner--text">Examples</span>
-            </a>
-            <div class="dropdown-menu">
-              <a href="./examples/landing.html" class="dropdown-item">Landing</a>
-              <a href="./examples/profile.html" class="dropdown-item">Profile</a>
-              <a href="./examples/login.html" class="dropdown-item">Login</a>
-              <a href="./examples/register.html" class="dropdown-item">Register</a>
-            </div>
-          </li>
-        </ul> -->
-      </div>
-    </div>
-  </nav>
-  <!-- End Navbar -->
-  <div class="wrapper">
-    <div class="section section-hero section-shaped">
-      <div class="shape shape-style-1 shape-primary">
-        <span class="span-150"></span>
-        <span class="span-50"></span>
-        <span class="span-50"></span>
-        <span class="span-75"></span>
-        <span class="span-100"></span>
-        <span class="span-75"></span>
-        <span class="span-50"></span>
-        <span class="span-100"></span>
-        <span class="span-50"></span>
-        <span class="span-100"></span>
-      </div>
-      <div class="page-header">
-        <div class="container shape-container d-flex align-items-center py-lg">
-          <div class="col px-0">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-lg-6 text-center">
-                <img src="./assets/img/brand/white.png" style="width: 200px;" class="img-fluid">
-                <p class="lead text-white">Edition 18 - Edition Name</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="separator separator-bottom separator-skew zindex-100">
-        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
-      </div>
-    </div>
-  <div class="section section-components pb-0" id="section-components">
-  <div class="section text-dark" style="background-image: url('./assets/img/ill/1.svg');">
-    <h2 class="display-2 text-center">News Headlines of the Week</h2>
-    <div class="container py-md">
-      <div class="row justify-content-between align-items-center">
-        <div class="col-sm-12 text-center">
-          <div class="transform-perspective-right">
+      <div id="about" class="container-fluid">
+        <h4>Our Work</h4>
+        <h2>The Weekly Edge Editions</h2>
+        <div class="transform-perspective-right">
             <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -184,258 +100,31 @@
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <i class="fas fa-chevron-left"></i>
                 <span class="sr-only">Previous</span>
               </a>
               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <i class="fas fa-chevron-right"></i>
                 <span class="sr-only">Next</span>
               </a>
             </div>
           </div>
-        </div>
       </div>
-    </div>
-  </div>
-  <section class="section section-lg section-shaped">
-    <div class="shape shape-style-1 shape-default">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-    <div class="container py-md text-white">
-      <div class="col-lg-8">
-        <div class="display-3 text-dark">Irony <strong class="text-white">Central</strong></div>
-      </div>
-  <div class="container mt-4">
-    <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="display-3">Article Heading</div>
-            <div class="content mt-2"> 
-                Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullam co laboris nisi ut
-            aliquip ex ea commodo con sequat.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam culpa nulla quas, totam repellendus adipisci fuga ratione consequuntur nihil officia iure deleniti recusandae, nemo odio similique tempora blanditiis delectus modi.
-            </div>
-            <div class="button"><button class="btn"> Read More </button> </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
-            <img class="img-responsive d-flex justiify-content-center align-self-center mt-1" src="https://source.unsplash.com/weekly" width="400" height="350">
-        </div>
-     </div>
-    </div>
-
-    <div class="container mt-4">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-12">
-              <img class="img-responsive d-flex justiify-content-center align-self-center mt-1" src="https://source.unsplash.com/weekly" width="400" height="350">
-        </div>
-
-          <div class="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-1">
-            <div class="display-3">Article Heading</div>
-            <div class="content mt-2"> 
-                Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullam co laboris nisi ut
-            aliquip ex ea commodo con sequat.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam culpa nulla quas, totam repellendus adipisci fuga ratione consequuntur nihil officia iure deleniti recusandae, nemo odio similique tempora blanditiis delectus modi.
-            </div>
-            <div class="button"><button class="btn"> Read More </button> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- SVG separator -->
-    <div class="separator separator-bottom separator-skew">
-      <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
-      </svg>
-    </div>
-  </section>
-  <div class="text-center m-auto">
-    <div class="display-1 text-dark">Editorial</div>
-  </div>
-  <div class="container mt-4 p-4">
-    <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="display-3">Article Heading</div>
-            <div class="content mt-2"> 
-                Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-						ad minim veniam, quis nostrud exercitation ullam co laboris nisi ut
-            aliquip ex ea commodo con sequat.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam culpa nulla quas, totam repellendus adipisci fuga ratione consequuntur nihil officia iure deleniti recusandae, nemo odio similique tempora blanditiis delectus modi.
-            </div>
-            <div class="button"><button class="btn"> Read More </button> </div>
-
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
-            <img class="img-responsive d-flex justiify-content-center align-self-center mt-1" src="https://source.unsplash.com/weekly" width="400" height="350">
-        </div>
-     </div>
-    </div>
-
-    <div class="container mt-4">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-12">
-              <img class="img-responsive d-flex justiify-content-center align-self-center mt-1" src="https://source.unsplash.com/weekly" width="400" height="350">
-        </div>
-
-          <div class="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-1">
-            <div class="display-3">Article Heading</div>
-            <div class="content mt-2"> 
-                Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullam co laboris nisi ut
-            aliquip ex ea commodo con sequat.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam culpa nulla quas, totam repellendus adipisci fuga ratione consequuntur nihil officia iure deleniti recusandae, nemo odio similique tempora blanditiis delectus modi.
-            </div>
-            <div class="button"><button class="btn"> Read More </button> </div>
-          </div>
-        </div>
-      </div>
-      <br /><br />
-      <section class="section section-lg section-shaped">
-        <div class="shape shape-style-1 shape-default">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="container py-md">
-          <div class="row row-grid justify-content-between align-items-center">
-            <div class="col-lg-8">
-              <div class="display-3 text-dark">Humans of <strong class="text-white">VIT</strong></div>
-              <p class="my-5 mx-5 text-white lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacus eget faucibus egestas. Fusce laoreet sem at sollicitudin commodo. Nunc consequat, orci id viverra bibendum, velit augue porta libero, laoreet lacinia turpis sem at eros. Fusce volutpat enim id tortor sagittis malesuada. Ut ac ex cursus, imperdiet nisl a, fringilla enim. Vestibulum vel ipsum eu metus varius dapibus. Vestibulum vel leo aliquam, varius erat a, dictum ligula. Nam ornare lacus felis, eu facilisis ante vehicula a. Donec rutrum varius varius. Curabitur a fermentum lacus. Nulla mollis dui eget ante sodales, varius porta justo auctor.</p>
-            </div>
-            <div class="col-lg-4 m-lg-auto">
-              <div>
-                <div class="card bg-secondary shadow border-0">
-                  <div class="embed-responsive embed-responsive-16by9 w-100">
-                    <iframe class="" width="420" height="315" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/k4V3Mo61fJM"></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- SVG separator -->
-        <div class="separator separator-bottom separator-skew">
-          <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
-          </svg>
-        </div>
-      </section>
-            
-  <footer class="footer has-cards">
-    <div class="container">
-      <div class="row row-grid align-items-center my-md">
-        <div class="col-lg-6">
-          <h3 class="text-primary font-weight-light mb-2">Thank you for supporting us!</h3>
-        </div>
-        <div class="col-lg-6 text-lg-center btn-wrapper">
-          <button target="_blank" href="https://twitter.com/creativetim" rel="nofollow" class="btn btn-icon-only btn-twitter rounded-circle" data-toggle="tooltip" data-original-title="Follow us">
-            <span class="btn-inner--icon"><i class="fa fa-twitter"></i></span>
-          </button>
-          <button target="_blank" href="https://www.facebook.com/CreativeTim/" rel="nofollow" class="btn-icon-only rounded-circle btn btn-facebook" data-toggle="tooltip" data-original-title="Like us">
-            <span class="btn-inner--icon"><i class="fab fa-facebook"></i></span>
-          </button>
-          <button target="_blank" href="https://dribbble.com/creativetim" rel="nofollow" class="btn btn-icon-only btn-dribbble rounded-circle" data-toggle="tooltip" data-original-title="Follow us">
-            <span class="btn-inner--icon"><i class="fa fa-dribbble"></i></span>
-          </button>
-          <button target="_blank" href="https://github.com/creativetimofficial" rel="nofollow" class="btn btn-icon-only btn-github rounded-circle" data-toggle="tooltip" data-original-title="Star on Github">
-            <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
-          </button>
-        </div>
-        <div class="container container-lg">
-          <div class="row">
-            <div class="col-md-6 mb-5 mb-md-0">
-              <p class="lead"><strong>Editor-in-Chief</strong> : Luke Skywalker</p>
-              <p class="lead"><strong>News</strong> : Lando Calrissian</p>
-              <p class="lead"><strong>Movie Review</strong> : Han Solo</p>          
-            </div>
-            <div class="col-md-6 mb-5 mb-lg-0">
-              <p class="lead"><strong>Editors</strong> : Anakin Skywalker and Obi Wan Kenobi</p>
-              <p class="lead"><strong>Article of Choice</strong> : Princess Leia</p>
-              <p class="lead"><strong>Irony Central</strong> : Chewbecca and C-3PO</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="row align-items-center justify-content-md-between">
-        <div class="col-md-6">
-          <div class="copyright">
-            &copy; 2020 <a href="" target="_blank">Creative Tim</a>.
-          </div>
-        </div>
-        <div class="col-md-6">
-          <ul class="nav nav-footer justify-content-end">
-            <li class="nav-item">
-              <a href="" class="nav-link" target="_blank">Creative Tim</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link" target="_blank">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link" target="_blank">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link" target="_blank">License</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-  </div>
-  <!--   Core JS Files   -->
-  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
-  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/moment.min.js"></script>
-  <script src="./assets/js/plugins/datetimepicker.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/bootstrap-datepicker.min.js"></script>
-  <!-- Control Center for Argon UI Kit: parallax effects, scripts for the example pages etc -->
-  <!--  Google Maps Plugin    -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-  <script src="./assets/js/argon-design-system.min.js?v=1.2.0" type="text/javascript"></script>
-  <script>
-    function scrollToDownload() {
-
-      if ($('.section-download').length != 0) {
-        $("html, body").animate({
-          scrollTop: $('.section-download').offset().top
-        }, 1000);
-      }
-    }
-  </script>
-  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
-  <script>
-    window.TrackJS &&
-      TrackJS.install({
-        token: "ee6fab19c5a04ac1a32a645abde4613a",
-        application: "argon-design-system-pro"
-      });
-  </script>
+    <script>
+        $(function () {
+        $(window).on('scroll', function () {
+            if ( $(window).scrollTop() > 100 ) {
+                $('.navbar').addClass('active');
+            } else {
+                $('.navbar').removeClass('active');
+            }
+        });
+    });
+    </script>
 </body>
-
 </html>
